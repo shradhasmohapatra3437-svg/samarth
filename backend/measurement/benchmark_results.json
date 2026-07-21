@@ -1,0 +1,222 @@
+[
+  {
+    "id": "rca-01",
+    "question": "Why does P-204 keep failing? What is the root cause?",
+    "expected_agent": "rca",
+    "got_agent": "rca",
+    "routing_correct": true,
+    "confidence": 60,
+    "keyword_hits": "2/2",
+    "time_sec": 12.2,
+    "answer_preview": "## Step 1: Analyze Historical Failure Pattern\nThe historical failure pattern of P-204 shows that it has experienced seal failure 8 times, with minor seal wear occurring 2 times. Additionally, there ha"
+  },
+  {
+    "id": "rca-02",
+    "question": "What is the failure pattern for compressor C-07?",
+    "expected_agent": "rca",
+    "got_agent": "rca",
+    "routing_correct": true,
+    "confidence": 60,
+    "keyword_hits": "1/1",
+    "time_sec": 3.37,
+    "answer_preview": "Based on the provided historical failure pattern, the failure pattern for equipment C-07 is as follows:\n\n- Vibration issues (occurred 5 times)\n- Corrosion (occurred 3 times)\n\nThe equipment has been re"
+  },
+  {
+    "id": "rca-03",
+    "question": "How many times has P-204 failed and who repairs it?",
+    "expected_agent": "rca",
+    "got_agent": "rca",
+    "routing_correct": true,
+    "confidence": 60,
+    "keyword_hits": "1/1",
+    "time_sec": 2.37,
+    "answer_preview": "P-204 has failed a total of 14 times, with the following breakdown:\n\n- Seal failure: 8 times\n- Minor seal wear: 2 times\n- Vibration: 3 times\n- Pressure low: 1 time\n\nAs for the repair, the following te"
+  },
+  {
+    "id": "rca-04",
+    "question": "What is the current risk level of P-204 based on its failure history?",
+    "expected_agent": "rca",
+    "got_agent": "rca",
+    "routing_correct": true,
+    "confidence": 60,
+    "keyword_hits": "1/1",
+    "time_sec": 2.94,
+    "answer_preview": "## Step 1: Analyze the historical failure pattern of P-204\nP-204 has a history of seal failures, with 8 instances of seal failure and 2 instances of minor seal wear. This suggests that seal failure is"
+  },
+  {
+    "id": "rca-05",
+    "question": "What are the recurring failure modes across all equipment?",
+    "expected_agent": "rca",
+    "got_agent": "rca",
+    "routing_correct": true,
+    "confidence": 0,
+    "keyword_hits": "0/0",
+    "time_sec": 0.4,
+    "answer_preview": "I couldn't identify a specific equipment ID in your question. Please mention an equipment tag (e.g., P-204) for RCA analysis."
+  },
+  {
+    "id": "compliance-01",
+    "question": "Is P-204 compliant with its governing regulations?",
+    "expected_agent": "compliance",
+    "got_agent": "compliance",
+    "routing_correct": true,
+    "confidence": 55,
+    "keyword_hits": "1/1",
+    "time_sec": 5.3,
+    "answer_preview": "1. **GOVERNING REGULATIONS SUMMARY**: The equipment P-204 is governed by OISD-STD-171 and OISD-STD-137. However, the actual regulatory text for OISD-STD-171 is not available in the system's document c"
+  },
+  {
+    "id": "compliance-02",
+    "question": "What does the Factories Act 1948 say about worker safety obligations?",
+    "expected_agent": "compliance",
+    "got_agent": "compliance",
+    "routing_correct": true,
+    "confidence": 50,
+    "keyword_hits": "0/0",
+    "time_sec": 9.8,
+    "answer_preview": "According to [REG-3], the Factories Act 1948 states that no worker in a factory shall: \n(a) willfully interfere with or misuse any appliance, convenience or other thing provided in a factory for the p"
+  },
+  {
+    "id": "compliance-03",
+    "question": "Are there any OISD-STD-137 violations for equipment at this plant?",
+    "expected_agent": "compliance",
+    "got_agent": "compliance",
+    "routing_correct": true,
+    "confidence": 50,
+    "keyword_hits": "1/1",
+    "time_sec": 4.29,
+    "answer_preview": "The retrieved text does not contain information about any specific OISD-STD-137 violations for equipment at a particular plant. The text appears to provide guidelines and standards for the inspection "
+  },
+  {
+    "id": "compliance-04",
+    "question": "What are the PESO rules for handling pressure vessels?",
+    "expected_agent": "compliance",
+    "got_agent": "compliance",
+    "routing_correct": true,
+    "confidence": 50,
+    "keyword_hits": "0/0",
+    "time_sec": 2.79,
+    "answer_preview": "The provided regulation text does not explicitly outline the comprehensive PESO rules for handling pressure vessels. However, [REG-1] mentions the Static and Mobile Pressure Vessels (Unfired) Rules, 2"
+  },
+  {
+    "id": "compliance-05",
+    "question": "Check compliance status of compressor C-07 under applicable standards",
+    "expected_agent": "compliance",
+    "got_agent": "compliance",
+    "routing_correct": true,
+    "confidence": 55,
+    "keyword_hits": "1/1",
+    "time_sec": 2.34,
+    "answer_preview": "1. **GOVERNING REGULATIONS SUMMARY**: The governing regulations for compressor C-07 are OISD-STD-223 and OISD-STD-141. However, the actual regulatory text for these standards could not be retrieved fr"
+  },
+  {
+    "id": "general-01",
+    "question": "Who has worked on P-204 most frequently?",
+    "expected_agent": "general",
+    "got_agent": "general",
+    "routing_correct": true,
+    "confidence": 32.0,
+    "keyword_hits": "0/0",
+    "time_sec": 2.04,
+    "answer_preview": "According to [Graph], Raghunath Panda has worked on P-204 the most frequently, with 9 occurrences [Graph]."
+  },
+  {
+    "id": "general-02",
+    "question": "What is the OEM recommended maintenance procedure for a centrifugal pump seal?",
+    "expected_agent": "general",
+    "got_agent": "general",
+    "routing_correct": true,
+    "confidence": 52.3,
+    "keyword_hits": "1/1",
+    "time_sec": 2.76,
+    "answer_preview": "The OEM recommended maintenance procedure for a centrifugal pump seal is as follows: \n- Dry condition: seal is functioning normally. \n- Intermittent dripping: early indication of seal face wear; maint"
+  },
+  {
+    "id": "general-03",
+    "question": "What work orders were completed in 2023?",
+    "expected_agent": "general",
+    "got_agent": "general",
+    "routing_correct": true,
+    "confidence": 46.3,
+    "keyword_hits": "0/0",
+    "time_sec": 1.42,
+    "answer_preview": "The completed work orders in 2023 are: \n- WO-2023-005 [1] \n- WO-2023-002 [5] \n- WO-2023-006 [6]"
+  },
+  {
+    "id": "general-04",
+    "question": "Which equipment is located in Zone 3?",
+    "expected_agent": "general",
+    "got_agent": "general",
+    "routing_correct": true,
+    "confidence": 39.8,
+    "keyword_hits": "0/0",
+    "time_sec": 1.22,
+    "answer_preview": "The context doesn't contain the answer. Zone 3 is mentioned in [1] as the location of the control room where a control system failure at Furnace 1 occurred, but it does not specify which equipment is "
+  },
+  {
+    "id": "general-05",
+    "question": "What are the main safety standards this plant follows?",
+    "expected_agent": "general",
+    "got_agent": "compliance",
+    "routing_correct": false,
+    "confidence": 0,
+    "keyword_hits": "0/0",
+    "time_sec": 0.22,
+    "answer_preview": "I couldn't identify a specific equipment ID or known regulation in your question. Please mention an equipment tag (e.g., P-204) or a regulation name (e.g., Factory Act, PESO, CPCB)."
+  },
+  {
+    "id": "mixed-01",
+    "question": "Is P-204's repeated seal failure a compliance issue under OISD standards?",
+    "expected_agent": "mixed",
+    "got_agent": "mixed",
+    "routing_correct": true,
+    "confidence": 55,
+    "keyword_hits": "1/1",
+    "time_sec": 9.59,
+    "answer_preview": "Based on the RCA analysis and compliance analysis, P-204's repeated seal failure is not directly confirmed as a compliance issue under OISD standards. The RCA analysis suggests that the failures were "
+  },
+  {
+    "id": "mixed-02",
+    "question": "Does C-07's vibration problem violate any regulatory requirements and what is causing it?",
+    "expected_agent": "mixed",
+    "got_agent": "mixed",
+    "routing_correct": true,
+    "confidence": 55,
+    "keyword_hits": "1/1",
+    "time_sec": 28.46,
+    "answer_preview": "### ANALYSIS OF C-07 VIBRATION PROBLEM\n\nThe historical failure pattern of C-07 shows vibration issues 5 times and corrosion 3 times, with various technicians involved in repairs [HIST-1]. The simulate"
+  },
+  {
+    "id": "edge-01",
+    "question": "",
+    "expected_agent": "general",
+    "got_agent": "general",
+    "routing_correct": true,
+    "confidence": 0,
+    "keyword_hits": "0/0",
+    "time_sec": 0.0,
+    "answer_preview": "Please provide a question."
+  },
+  {
+    "id": "edge-02",
+    "question": "P-204 ki seal failure OISD ke according compliance issue hai kya?",
+    "expected_agent": "mixed",
+    "got_agent": "compliance",
+    "routing_correct": false,
+    "confidence": 55,
+    "keyword_hits": "0/0",
+    "time_sec": 7.35,
+    "answer_preview": "Given the context and the regulations provided, I will structure my answer as requested:\n\n1. **GOVERNING REGULATIONS SUMMARY**:\n   - The equipment P-204 is governed by OISD-STD-171 and OISD-STD-137. H"
+  },
+  {
+    "id": "edge-03",
+    "question": "What is the inspection frequency requirement for pressure vessels under OISD?",
+    "expected_agent": "compliance",
+    "got_agent": "compliance",
+    "routing_correct": true,
+    "confidence": 0,
+    "keyword_hits": "0/0",
+    "time_sec": 0.61,
+    "answer_preview": "I couldn't identify a specific equipment ID or known regulation in your question. Please mention an equipment tag (e.g., P-204) or a regulation name (e.g., Factory Act, PESO, CPCB)."
+  }
+]

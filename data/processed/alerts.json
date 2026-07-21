@@ -1,0 +1,154 @@
+[
+  {
+    "timestamp": "2026-07-21T23:41:54.475542",
+    "equipment_id": "CV-05",
+    "priority_score": 7.0,
+    "total_failures": 5,
+    "last_failure_date": "2026-06-15",
+    "reasoning": [
+      "Moderate failure count (5 recorded failures)",
+      "Failure within last 90 days (36 days ago)",
+      "Governed by safety regulation(s): OISD-STD-187, OISD-STD-139"
+    ],
+    "governed_by": [
+      "OISD-STD-187",
+      "OISD-STD-139"
+    ],
+    "rca_summary": "## Step 1: LIKELY ROOT CAUSE(S)\nBased on the historical failure pattern of CV-05, the most common failure is valve actuator failure, which has occurred 4 times [HIST-1], [HIST-2], [HIST-3], [HIST-4]. The OEM manual [OEM-1] does not specifically address valve actuator failure, but it provides general guidance on maintenance and troubleshooting for centrifugal pumps. Since the valve actuator failure is a recurring issue, it is likely that the root cause is related to the maintenance or operation of the valve actuator. However, without more specific information on the valve actuator or its maintenance history, it is difficult to determine a more specific root cause.\n\n## Step 2: CURRENT RISK ASSESSMENT\nThe simulated current operating conditions for CV-05 are:\n- Temperature: 54.3\u00b0C\n- Vibration: 3.37 mm/s\n- Pressure: 7.5 bar\nThese conditions are within normal operating ranges for a centrifugal pump, but the OEM manual [OEM-1] recommends monitoring temperature, vibration, and pressure as part of routine maintenance. The current operating conditions do not suggest an elevated risk of failure based on the information provided. However, the recurring valve actuator failures suggest that there may be an underlying issue that is not directly related to the current operating conditions.\n\n## Step 3: RECOMMENDED ACTION\nBased on the historical failure pattern and the OEM manual guidance, the recommended action is to perform a thorough inspection and maintenance of the valve actuator and its associated components. This should include checking the actuator's mechanical and electrical components, as well as the control system that operates the actuator. Additionally, the maintenance history and operating conditions of the valve actuator should be reviewed to identify any potential contributing factors to the recurring failures.\n\n## Step 4: CONFIDENCE\nThe confidence in this root cause analysis is limited due to the lack of specific information on the valve actuator and its maintenance history. The analysis is based on general guidance from the OEM manual and the historical failure pattern, but more detailed information is needed to determine a more specific root cause. Therefore, the confidence level is moderate, and further investigation is recommended to confirm the root cause and develop a more effective maintenance strategy.\n\nThe final answer is:\n\n1. **LIKELY ROOT CAUSE(S)**: Valve actuator failure, potentially related to maintenance or operation of the valve actuator.\n2. **CURRENT RISK ASSESSMENT**: The simulated current operating conditions do not suggest an elevated risk of failure.\n3. **RECOMMENDED ACTION**: Perform a thorough inspection and maintenance of the valve actuator and its associated components.\n4. **CONFIDENCE**: Moderate, with a need for further investigation to confirm the root cause and develop a more effective maintenance strategy.",
+    "compliance_status": "COMPLIANT",
+    "compliance_details": "OISD-STD-187: UNVERIFIED (No regulatory text or check records available....)\nOISD-STD-139: UNVERIFIED (No regulatory text or check records available....)"
+  },
+  {
+    "timestamp": "2026-07-21T23:41:59.571061",
+    "equipment_id": "F-02",
+    "priority_score": 10,
+    "total_failures": 10,
+    "last_failure_date": "2026-06-25",
+    "reasoning": [
+      "High failure count (10 recorded failures)",
+      "Recent failure (26 days ago) \u2014 may indicate unresolved issue",
+      "Governed by safety regulation(s): OISD-STD-219, OISD-STD-140"
+    ],
+    "governed_by": [
+      "OISD-STD-219",
+      "OISD-STD-140"
+    ],
+    "rca_summary": "## 1. LIKELY ROOT CAUSE(S)\nBased on the historical failure pattern of F-02, the most common issue has been filter clogging, which has occurred four times [HIST-1, HIST-2, HIST-3, HIST-4]. The equipment has also experienced vibration issues [HIST-1, HIST-2, HIST-3], but the primary and most recurring problem is related to filter clogging. According to the OEM manual [OEM-1], common failure modes include clogged suction strainers or insufficient Net Positive Suction Head (NPSH), which could lead to cavitation noise/vibration. However, the direct link to filter clogging as described in the work orders suggests that the root cause is more likely related to the maintenance and operation of the filter itself rather than a design or operational issue with the pump's suction system.\n\n## 2. CURRENT RISK ASSESSMENT\nGiven the simulated current operating conditions (Temperature: 46.3\u00b0C, Vibration: 3.34 mm/s, Pressure: 6.2 bar), there is no direct indication from the OEM manual [OEM-1] that these conditions are outside the normal operating parameters for a centrifugal pump. However, the vibration level, although not explicitly compared to a threshold in the provided OEM manual, could be considered for further investigation, especially given the historical vibration issues with F-02. The temperature and pressure readings do not immediately suggest an elevated risk based on the information provided.\n\n## 3. RECOMMENDED ACTION\nBased on the historical failure pattern and the current operating conditions, the recommended action is to inspect and maintain the filter system to prevent future clogging issues. This includes checking the filter condition, ensuring proper installation, and verifying that the maintenance schedule for filter replacement or cleaning is adequate and followed. Additionally, monitoring the vibration levels and performing routine inspections as outlined in the OEM manual [OEM-1], such as the daily visual walkaround and weekly logging of discharge pressure and flow rate, can help in early detection of potential issues.\n\n## 4. CONFIDENCE\nThe confidence in this analysis is moderate to high for the identification of filter clogging as a significant issue, given the clear historical pattern. However, the analysis of current operating conditions and their implications is limited by the lack of specific thresholds or comparisons in the OEM manual provided. Therefore, while the historical data strongly supports the conclusion about filter clogging, the assessment of current risk and the appropriateness of the recommended actions could be further refined with more detailed operational data or specific guidance from the OEM manual regarding acceptable operating parameters for temperature, vibration, and pressure.",
+    "compliance_status": "COMPLIANT",
+    "compliance_details": "OISD-STD-219: UNVERIFIED (No regulatory text or check records available....)\nOISD-STD-140: UNVERIFIED (No regulatory text or check records available....)"
+  },
+  {
+    "timestamp": "2026-07-21T23:42:03.765513",
+    "equipment_id": "P-101",
+    "priority_score": 8.5,
+    "total_failures": 10,
+    "last_failure_date": "2026-06-20",
+    "reasoning": [
+      "High failure count (10 recorded failures)",
+      "Failure within last 90 days (31 days ago)",
+      "Governed by safety regulation(s): OISD-STD-145, OISD-STD-134"
+    ],
+    "governed_by": [
+      "OISD-STD-145",
+      "OISD-STD-134"
+    ],
+    "rca_summary": "## 1. LIKELY ROOT CAUSE(S)\nBased on the historical failure pattern of P-101, the most common failure mode is leakage from the pump casing, which has occurred 4 times. The OEM manual [OEM-1] suggests that common root causes of premature seal failure include running the pump dry, operating fluid temperature or chemical composition outside the seal material's rated tolerance, and abrasive solids settling near the seal during idle/shutdown periods. Given that the historical failure pattern of P-101 includes leakage from the pump casing, it is likely that the root cause is related to the mechanical seal condition. However, without more specific information about the operating conditions and maintenance history of P-101, it is difficult to determine the exact root cause.\n\n## 2. CURRENT RISK ASSESSMENT\nThe simulated current operating conditions for P-101 show a temperature of 67.0\u00b0C, vibration of 2.44 mm/s, and pressure of 5.0 bar. According to the OEM manual [OEM-1], the routine inspection schedule includes checking for abnormal noise suggestive of cavitation or high-pitched bearing squeal, and logging discharge pressure and flow rate. The current operating conditions do not appear to be outside the normal range, but the vibration level of 2.44 mm/s may be slightly elevated. However, without more information about the baseline vibration level for P-101, it is difficult to determine if this is a significant concern. Overall, the simulated operating conditions do not suggest an elevated risk of failure at this time.\n\n## 3. RECOMMENDED ACTION\nBased on the historical failure pattern and OEM manual guidance, it is recommended to perform a routine inspection of P-101, including a visual walkaround for leakage at pipe joints and mounting brackets, and checking for abnormal noise suggestive of cavitation or high-pitched bearing squeal. Additionally, the mechanical seal condition should be checked via the housing's inspection point to determine if there are any signs of wear or damage. If any issues are detected, maintenance should be scheduled to address them before they become more serious.\n\n## 4. CONFIDENCE\nThe confidence in this root cause analysis is moderate, as it is based on historical failure patterns and OEM manual guidance, but does not take into account real-time operating conditions or more detailed maintenance records. Additionally, the simulated operating conditions are illustrative and not based on live sensor data, which may limit their accuracy. Therefore, while this analysis provides a general indication of potential root causes and recommended actions, it shouldn't be considered definitive without further investigation and data analysis.",
+    "compliance_status": "COMPLIANT",
+    "compliance_details": "OISD-STD-145: UNVERIFIED (No regulatory text or check records available....)\nOISD-STD-134: UNVERIFIED (No regulatory text or check records available....)"
+  },
+  {
+    "timestamp": "2026-07-21T23:42:29.467220",
+    "equipment_id": "P-204",
+    "priority_score": 8.5,
+    "total_failures": 14,
+    "last_failure_date": "2026-06-01",
+    "reasoning": [
+      "High failure count (14 recorded failures)",
+      "Failure within last 90 days (50 days ago)",
+      "Governed by safety regulation(s): OISD-STD-171, OISD-STD-137"
+    ],
+    "governed_by": [
+      "OISD-STD-171",
+      "OISD-STD-137"
+    ],
+    "rca_summary": "## 1. LIKELY ROOT CAUSE(S)\nBased on the historical failure pattern and OEM manual guidance, the likely root causes of P-204's failures are related to mechanical seal issues. The equipment has experienced seal failures 8 times, with the most recent ones being addressed by replacing the mechanical seal as per OISD-STD-171 [HIST-1], [HIST-2], [HIST-4], [HIST-5]. The OEM manual [OEM-1] highlights common root causes of premature seal failure, including running the pump dry, operating fluid temperature or chemical composition outside the seal material's rated tolerance, and abrasive solids settling near the seal during idle/shutdown periods. Given P-204's history, it is plausible that one or more of these factors have contributed to the recurring seal failures.\n\n## 2. CURRENT RISK ASSESSMENT\nThe simulated current operating conditions for P-204 show a temperature of 63.9\u00b0C, vibration of 4.91 mm/s, and pressure of 7.6 bar. While these conditions are illustrative and not live sensor data, they can be compared against general guidelines. The OEM manual [OEM-1] does not provide specific thresholds for temperature, vibration, or pressure that would indicate an elevated risk for P-204. However, it does mention that operating fluid temperature outside the seal material's rated tolerance can lead to premature seal failure. Without specific tolerance information for P-204's seals, it's challenging to assess the risk based solely on the temperature. The vibration level might be worth monitoring, as excessive vibration can indicate issues such as imbalance, misalignment, or worn-out parts, which could potentially affect the mechanical seal's performance over time.\n\n## 3. RECOMMENDED ACTION\nGiven the historical pattern of seal failures and the potential for ongoing risk due to operating conditions, a recommended action would be to conduct a thorough inspection of the mechanical seal and its operating environment. This should include checking for any signs of wear, ensuring that the seal material is compatible with the process fluid chemistry, and verifying that the pump is not being run dry or exposed to abrasive solids during shutdowns. Additionally, reviewing the maintenance schedule to ensure that routine inspections and maintenance tasks, as outlined in the OEM manual [OEM-1], are being performed regularly could help in preventing future seal failures.\n\n## 4. CONFIDENCE\nThe confidence in this root cause analysis is moderate. While the historical failure pattern and OEM manual guidance provide valuable insights into potential root causes, the lack of specific information about the current operating conditions (e.g., actual vs. simulated data, detailed fluid chemistry, recent maintenance activities) limits the ability to draw definitive conclusions. Furthermore, without access to real-time sensor data or more detailed records of maintenance and operating practices, it's challenging to assess the current risk accurately or to identify all potential contributing factors to P-204's recurring seal failures.",
+    "compliance_status": "COMPLIANT",
+    "compliance_details": "OISD-STD-171: UNVERIFIED (No regulatory text or check records available....)\nOISD-STD-137: COMPLIANT (- [CONFIRMED]: None \u2014 The retrieved text for OISD-STD-137 does not contain speci...)"
+  },
+  {
+    "timestamp": "2026-07-20T22:18:13.757342",
+    "equipment_id": "CV-05",
+    "priority_score": 7.0,
+    "total_failures": 5,
+    "last_failure_date": "2026-06-15",
+    "reasoning": [
+      "Moderate failure count (5 recorded failures)",
+      "Failure within last 90 days (35 days ago)",
+      "Governed by safety regulation(s): OISD-STD-187, OISD-STD-139"
+    ],
+    "governed_by": [
+      "OISD-STD-187",
+      "OISD-STD-139"
+    ],
+    "rca_summary": "LLM RCA analysis bypassed due to rate limiting or API error.",
+    "compliance_status": "UNVERIFIED",
+    "compliance_details": "Compliance check failed to run due to rate limiting or API error."
+  },
+  {
+    "timestamp": "2026-07-20T22:18:14.235024",
+    "equipment_id": "F-02",
+    "priority_score": 10,
+    "total_failures": 10,
+    "last_failure_date": "2026-06-25",
+    "reasoning": [
+      "High failure count (10 recorded failures)",
+      "Recent failure (25 days ago) \u2014 may indicate unresolved issue",
+      "Governed by safety regulation(s): OISD-STD-219, OISD-STD-140"
+    ],
+    "governed_by": [
+      "OISD-STD-219",
+      "OISD-STD-140"
+    ],
+    "rca_summary": "LLM RCA analysis bypassed due to rate limiting or API error.",
+    "compliance_status": "UNVERIFIED",
+    "compliance_details": "Compliance check failed to run due to rate limiting or API error."
+  },
+  {
+    "timestamp": "2026-07-20T22:18:14.528157",
+    "equipment_id": "P-101",
+    "priority_score": 10,
+    "total_failures": 10,
+    "last_failure_date": "2026-06-20",
+    "reasoning": [
+      "High failure count (10 recorded failures)",
+      "Recent failure (30 days ago) \u2014 may indicate unresolved issue",
+      "Governed by safety regulation(s): OISD-STD-145, OISD-STD-134"
+    ],
+    "governed_by": [
+      "OISD-STD-145",
+      "OISD-STD-134"
+    ],
+    "rca_summary": "LLM RCA analysis bypassed due to rate limiting or API error.",
+    "compliance_status": "UNVERIFIED",
+    "compliance_details": "Compliance check failed to run due to rate limiting or API error."
+  },
+  {
+    "timestamp": "2026-07-20T22:18:17.302785",
+    "equipment_id": "P-204",
+    "priority_score": 8.5,
+    "total_failures": 14,
+    "last_failure_date": "2026-06-01",
+    "reasoning": [
+      "High failure count (14 recorded failures)",
+      "Failure within last 90 days (49 days ago)",
+      "Governed by safety regulation(s): OISD-STD-171, OISD-STD-137"
+    ],
+    "governed_by": [
+      "OISD-STD-171",
+      "OISD-STD-137"
+    ],
+    "rca_summary": "LLM RCA analysis bypassed due to rate limiting or API error.",
+    "compliance_status": "UNVERIFIED",
+    "compliance_details": "Compliance check failed to run due to rate limiting or API error."
+  }
+]

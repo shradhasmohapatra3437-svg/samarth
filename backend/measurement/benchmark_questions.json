@@ -1,0 +1,142 @@
+[
+  {
+    "id": "rca-01",
+    "question": "Why does P-204 keep failing? What is the root cause?",
+    "expected_agent": "rca",
+    "expected_contains": ["P-204", "seal"],
+    "notes": "Core RCA query with known equipment"
+  },
+  {
+    "id": "rca-02",
+    "question": "What is the failure pattern for compressor C-07?",
+    "expected_agent": "rca",
+    "expected_contains": ["C-07"],
+    "notes": "RCA on second major equipment"
+  },
+  {
+    "id": "rca-03",
+    "question": "How many times has P-204 failed and who repairs it?",
+    "expected_agent": "rca",
+    "expected_contains": ["P-204"],
+    "notes": "RCA + person query"
+  },
+  {
+    "id": "rca-04",
+    "question": "What is the current risk level of P-204 based on its failure history?",
+    "expected_agent": "rca",
+    "expected_contains": ["P-204"],
+    "notes": "Priority scoring query"
+  },
+  {
+    "id": "rca-05",
+    "question": "What are the recurring failure modes across all equipment?",
+    "expected_agent": "rca",
+    "expected_contains": [],
+    "notes": "Fleet-level RCA — no specific equipment"
+  },
+  {
+    "id": "compliance-01",
+    "question": "Is P-204 compliant with its governing regulations?",
+    "expected_agent": "compliance",
+    "expected_contains": ["P-204"],
+    "notes": "Equipment-anchored compliance check"
+  },
+  {
+    "id": "compliance-02",
+    "question": "What does the Factories Act 1948 say about worker safety obligations?",
+    "expected_agent": "compliance",
+    "expected_contains": [],
+    "notes": "Regulation-first compliance (no equipment mentioned)"
+  },
+  {
+    "id": "compliance-03",
+    "question": "Are there any OISD-STD-137 violations for equipment at this plant?",
+    "expected_agent": "compliance",
+    "expected_contains": ["OISD"],
+    "notes": "Regulation-name compliance query"
+  },
+  {
+    "id": "compliance-04",
+    "question": "What are the PESO rules for handling pressure vessels?",
+    "expected_agent": "compliance",
+    "expected_contains": [],
+    "notes": "PESO regulation-first query"
+  },
+  {
+    "id": "compliance-05",
+    "question": "Check compliance status of compressor C-07 under applicable standards",
+    "expected_agent": "compliance",
+    "expected_contains": ["C-07"],
+    "notes": "Compliance check on second equipment"
+  },
+  {
+    "id": "general-01",
+    "question": "Who has worked on P-204 most frequently?",
+    "expected_agent": "general",
+    "expected_contains": [],
+    "notes": "Person lookup — general RAG + graph"
+  },
+  {
+    "id": "general-02",
+    "question": "What is the OEM recommended maintenance procedure for a centrifugal pump seal?",
+    "expected_agent": "general",
+    "expected_contains": ["seal"],
+    "notes": "OEM manual retrieval"
+  },
+  {
+    "id": "general-03",
+    "question": "What work orders were completed in 2023?",
+    "expected_agent": "general",
+    "expected_contains": [],
+    "notes": "Operational data lookup"
+  },
+  {
+    "id": "general-04",
+    "question": "Which equipment is located in Zone 3?",
+    "expected_agent": "general",
+    "expected_contains": [],
+    "notes": "Location-based query"
+  },
+  {
+    "id": "general-05",
+    "question": "What are the main safety standards this plant follows?",
+    "expected_agent": "general",
+    "expected_contains": [],
+    "notes": "General knowledge query"
+  },
+  {
+    "id": "mixed-01",
+    "question": "Is P-204's repeated seal failure a compliance issue under OISD standards?",
+    "expected_agent": "mixed",
+    "expected_contains": ["P-204"],
+    "notes": "Classic mixed: RCA pattern + compliance implication"
+  },
+  {
+    "id": "mixed-02",
+    "question": "Does C-07's vibration problem violate any regulatory requirements and what is causing it?",
+    "expected_agent": "mixed",
+    "expected_contains": ["C-07"],
+    "notes": "Mixed: root cause + regulatory check"
+  },
+  {
+    "id": "edge-01",
+    "question": "",
+    "expected_agent": "general",
+    "expected_contains": [],
+    "notes": "Edge case: empty query — should not crash"
+  },
+  {
+    "id": "edge-02",
+    "question": "P-204 ki seal failure OISD ke according compliance issue hai kya?",
+    "expected_agent": "mixed",
+    "expected_contains": [],
+    "notes": "Edge case: Hindi-English mixed language query"
+  },
+  {
+    "id": "edge-03",
+    "question": "What is the inspection frequency requirement for pressure vessels under OISD?",
+    "expected_agent": "compliance",
+    "expected_contains": [],
+    "notes": "Compliance query with no equipment tag — regulation-first path"
+  }
+]

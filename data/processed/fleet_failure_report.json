@@ -1,0 +1,504 @@
+{
+  "top_risk_equipment": [
+    {
+      "equipment_id": "F-02",
+      "priority_score": 10,
+      "total_failures": 10,
+      "governed_by": [
+        "OISD-STD-219",
+        "OISD-STD-140"
+      ],
+      "reasoning": [
+        "High failure count (10 recorded failures)",
+        "Recent failure (27 days ago) \u2014 may indicate unresolved issue",
+        "Governed by safety regulation(s): OISD-STD-219, OISD-STD-140"
+      ]
+    },
+    {
+      "equipment_id": "P-204",
+      "priority_score": 8.5,
+      "total_failures": 14,
+      "governed_by": [
+        "OISD-STD-171",
+        "OISD-STD-137"
+      ],
+      "reasoning": [
+        "High failure count (14 recorded failures)",
+        "Failure within last 90 days (51 days ago)",
+        "Governed by safety regulation(s): OISD-STD-171, OISD-STD-137"
+      ]
+    },
+    {
+      "equipment_id": "P-101",
+      "priority_score": 8.5,
+      "total_failures": 10,
+      "governed_by": [
+        "OISD-STD-145",
+        "OISD-STD-134"
+      ],
+      "reasoning": [
+        "High failure count (10 recorded failures)",
+        "Failure within last 90 days (32 days ago)",
+        "Governed by safety regulation(s): OISD-STD-145, OISD-STD-134"
+      ]
+    },
+    {
+      "equipment_id": "CV-05",
+      "priority_score": 7.0,
+      "total_failures": 5,
+      "governed_by": [
+        "OISD-STD-187",
+        "OISD-STD-139"
+      ],
+      "reasoning": [
+        "Moderate failure count (5 recorded failures)",
+        "Failure within last 90 days (37 days ago)",
+        "Governed by safety regulation(s): OISD-STD-187, OISD-STD-139"
+      ]
+    },
+    {
+      "equipment_id": "C-07",
+      "priority_score": 5.5,
+      "total_failures": 8,
+      "governed_by": [
+        "OISD-STD-223",
+        "OISD-STD-141"
+      ],
+      "reasoning": [
+        "Moderate failure count (8 recorded failures)",
+        "Last failure 139 days ago",
+        "Governed by safety regulation(s): OISD-STD-223, OISD-STD-141"
+      ]
+    }
+  ],
+  "most_common_failures": [
+    {
+      "failure_mode": "vibration",
+      "count": 9
+    },
+    {
+      "failure_mode": "Seal failure",
+      "count": 8
+    },
+    {
+      "failure_mode": "explosion",
+      "count": 7
+    },
+    {
+      "failure_mode": "pressure low",
+      "count": 5
+    },
+    {
+      "failure_mode": "Vibration issues",
+      "count": 5
+    }
+  ],
+  "repeat_offenders": [
+    {
+      "equipment_id": "P-204",
+      "failure_mode": "Seal failure",
+      "occurrences": 8
+    },
+    {
+      "equipment_id": "P-204",
+      "failure_mode": "vibration",
+      "occurrences": 3
+    },
+    {
+      "equipment_id": "C-07",
+      "failure_mode": "Vibration issues",
+      "occurrences": 5
+    },
+    {
+      "equipment_id": "C-07",
+      "failure_mode": "Corrosion",
+      "occurrences": 3
+    },
+    {
+      "equipment_id": "P-101",
+      "failure_mode": "Leakage from the pump casing",
+      "occurrences": 4
+    },
+    {
+      "equipment_id": "P-101",
+      "failure_mode": "vibration",
+      "occurrences": 3
+    },
+    {
+      "equipment_id": "P-156",
+      "failure_mode": "Motor bearing failure",
+      "occurrences": 3
+    },
+    {
+      "equipment_id": "HX-02",
+      "failure_mode": "Leakage from the heat exchanger tubes",
+      "occurrences": 4
+    },
+    {
+      "equipment_id": "CV-05",
+      "failure_mode": "Valve actuator failure",
+      "occurrences": 4
+    },
+    {
+      "equipment_id": "F-02",
+      "failure_mode": "Filter clogging issues",
+      "occurrences": 4
+    },
+    {
+      "equipment_id": "F-02",
+      "failure_mode": "vibration",
+      "occurrences": 3
+    },
+    {
+      "equipment_id": "P-089",
+      "failure_mode": "Pump motor failure",
+      "occurrences": 3
+    },
+    {
+      "equipment_id": "C-03",
+      "failure_mode": "Compressor oil leakage",
+      "occurrences": 3
+    }
+  ],
+  "technician_workload": [
+    {
+      "name": "Bikram Nayak",
+      "total_repairs": 23
+    },
+    {
+      "name": "Raghunath Panda",
+      "total_repairs": 17
+    },
+    {
+      "name": "Suresh Mohanty",
+      "total_repairs": 15
+    },
+    {
+      "name": "Suresh Patel",
+      "total_repairs": 15
+    },
+    {
+      "name": "Rajesh Kumar",
+      "total_repairs": 13
+    },
+    {
+      "name": "Priya Sharma",
+      "total_repairs": 11
+    },
+    {
+      "name": "Deepak Mishra",
+      "total_repairs": 10
+    },
+    {
+      "name": "Santosh Kumar",
+      "total_repairs": 4
+    },
+    {
+      "name": "D. Niranjan Reddy",
+      "total_repairs": 4
+    },
+    {
+      "name": "SHRI DEVENDER GOUD T.",
+      "total_repairs": 3
+    },
+    {
+      "name": "SHRI BENI PRASAD VERMA",
+      "total_repairs": 3
+    },
+    {
+      "name": "Rahul Singh",
+      "total_repairs": 1
+    },
+    {
+      "name": "Vivek Sharma",
+      "total_repairs": 1
+    }
+  ],
+  "equipment_to_technician_map": {
+    "P-204": [
+      {
+        "name": "Raghunath Panda",
+        "repairs": 9
+      },
+      {
+        "name": "Suresh Mohanty",
+        "repairs": 3
+      },
+      {
+        "name": "Bikram Nayak",
+        "repairs": 2
+      },
+      {
+        "name": "Suresh Patel",
+        "repairs": 3
+      },
+      {
+        "name": "Rajesh Kumar",
+        "repairs": 2
+      }
+    ],
+    "C-07": [
+      {
+        "name": "Suresh Mohanty",
+        "repairs": 6
+      },
+      {
+        "name": "Priya Sharma",
+        "repairs": 3
+      },
+      {
+        "name": "Bikram Nayak",
+        "repairs": 2
+      },
+      {
+        "name": "Rajesh Kumar",
+        "repairs": 1
+      },
+      {
+        "name": "Suresh Patel",
+        "repairs": 1
+      }
+    ],
+    "P-101": [
+      {
+        "name": "Bikram Nayak",
+        "repairs": 3
+      },
+      {
+        "name": "Priya Sharma",
+        "repairs": 3
+      },
+      {
+        "name": "Raghunath Panda",
+        "repairs": 3
+      },
+      {
+        "name": "Rajesh Kumar",
+        "repairs": 3
+      },
+      {
+        "name": "Suresh Patel",
+        "repairs": 3
+      }
+    ],
+    "P-156": [
+      {
+        "name": "Priya Sharma",
+        "repairs": 1
+      },
+      {
+        "name": "Bikram Nayak",
+        "repairs": 2
+      }
+    ],
+    "HX-02": [
+      {
+        "name": "Deepak Mishra",
+        "repairs": 4
+      },
+      {
+        "name": "Raghunath Panda",
+        "repairs": 3
+      }
+    ],
+    "CV-05": [
+      {
+        "name": "Bikram Nayak",
+        "repairs": 6
+      },
+      {
+        "name": "Suresh Mohanty",
+        "repairs": 3
+      },
+      {
+        "name": "Rajesh Kumar",
+        "repairs": 1
+      },
+      {
+        "name": "Suresh Patel",
+        "repairs": 1
+      }
+    ],
+    "F-02": [
+      {
+        "name": "Priya Sharma",
+        "repairs": 4
+      },
+      {
+        "name": "Deepak Mishra",
+        "repairs": 3
+      },
+      {
+        "name": "Bikram Nayak",
+        "repairs": 2
+      },
+      {
+        "name": "Rajesh Kumar",
+        "repairs": 1
+      },
+      {
+        "name": "Suresh Patel",
+        "repairs": 2
+      }
+    ],
+    "P-089": [
+      {
+        "name": "Deepak Mishra",
+        "repairs": 3
+      }
+    ],
+    "C-03": [
+      {
+        "name": "Suresh Mohanty",
+        "repairs": 3
+      },
+      {
+        "name": "Suresh Patel",
+        "repairs": 1
+      },
+      {
+        "name": "Bikram Nayak",
+        "repairs": 2
+      },
+      {
+        "name": "Rajesh Kumar",
+        "repairs": 1
+      }
+    ],
+    "Furnace 1": [
+      {
+        "name": "Santosh Kumar",
+        "repairs": 2
+      }
+    ],
+    "V-101": [
+      {
+        "name": "Rahul Singh",
+        "repairs": 1
+      }
+    ],
+    "P-301": [
+      {
+        "name": "Vivek Sharma",
+        "repairs": 1
+      }
+    ],
+    "Furnace 2": [
+      {
+        "name": "Santosh Kumar",
+        "repairs": 1
+      }
+    ],
+    "Control valve": [
+      {
+        "name": "Santosh Kumar",
+        "repairs": 1
+      }
+    ],
+    "T-101": [
+      {
+        "name": "Raghunath Panda",
+        "repairs": 1
+      }
+    ],
+    "V-201": [
+      {
+        "name": "Raghunath Panda",
+        "repairs": 1
+      }
+    ],
+    "F-01": [
+      {
+        "name": "Rajesh Kumar",
+        "repairs": 2
+      },
+      {
+        "name": "Suresh Patel",
+        "repairs": 1
+      }
+    ],
+    "P-202": [
+      {
+        "name": "Suresh Patel",
+        "repairs": 1
+      },
+      {
+        "name": "Rajesh Kumar",
+        "repairs": 1
+      },
+      {
+        "name": "Bikram Nayak",
+        "repairs": 3
+      }
+    ],
+    "CV-10": [
+      {
+        "name": "Suresh Patel",
+        "repairs": 2
+      },
+      {
+        "name": "Bikram Nayak",
+        "repairs": 1
+      },
+      {
+        "name": "Rajesh Kumar",
+        "repairs": 1
+      }
+    ],
+    "Ladle": [
+      {
+        "name": "D. Niranjan Reddy",
+        "repairs": 1
+      }
+    ],
+    "Overhead Crane-2": [
+      {
+        "name": "D. Niranjan Reddy",
+        "repairs": 1
+      }
+    ],
+    "Caster-2": [
+      {
+        "name": "D. Niranjan Reddy",
+        "repairs": 1
+      }
+    ],
+    "Tundish": [
+      {
+        "name": "D. Niranjan Reddy",
+        "repairs": 1
+      }
+    ],
+    "Converter-1": [
+      {
+        "name": "SHRI DEVENDER GOUD T.",
+        "repairs": 1
+      },
+      {
+        "name": "SHRI BENI PRASAD VERMA",
+        "repairs": 1
+      }
+    ],
+    "Steel Melting Shop-2": [
+      {
+        "name": "SHRI DEVENDER GOUD T.",
+        "repairs": 1
+      },
+      {
+        "name": "SHRI BENI PRASAD VERMA",
+        "repairs": 1
+      }
+    ],
+    "Oxygen Pressure Reducing Station-3": [
+      {
+        "name": "SHRI DEVENDER GOUD T.",
+        "repairs": 1
+      },
+      {
+        "name": "SHRI BENI PRASAD VERMA",
+        "repairs": 1
+      }
+    ]
+  },
+  "executive_summary": "**Executive Summary**\n\n### FLEET HEALTH OVERVIEW\n\nThe fleet's overall health is a concern, with multiple equipment exhibiting high failure rates and recent failures. The top risk equipment, F-02, has a priority score of 10, with 10 recorded failures, including a recent one 27 days ago. Other high-risk equipment includes P-204, P-101, CV-05, and C-07, all governed by various safety regulations. These findings indicate unresolved issues and potential safety risks, warranting immediate attention.\n\n### SYSTEMIC FAILURE PATTERNS\n\nAnalysis of failure modes reveals that vibration (9 occurrences) and seal failures (8 occurrences) are the most common issues. These patterns suggest potential problems with equipment maintenance, lubrication, and installation. Vibration issues may indicate imbalance, misalignment, or worn-out components, while seal failures could be due to inadequate maintenance, incorrect installation, or material degradation. Explosion (7 occurrences) and pressure low (5 occurrences) failures also require investigation to determine root causes.\n\n### KEY RECOMMENDATIONS\n\nTo improve fleet reliability, the following recommendations are made:\n\n1. **Implement a Condition-Based Maintenance (CBM) program**: Focus on vibration analysis and monitoring to detect early signs of equipment degradation, allowing for proactive maintenance and reducing downtime.\n2. **Enhance Seal Maintenance and Inspection**: Develop a comprehensive seal maintenance and inspection program to identify and address potential seal failures, including regular inspections, replacement schedules, and technician training.\n3. **Optimize Preventive Maintenance (PM) Intervals**: Review and adjust PM intervals for high-risk equipment to ensure that maintenance activities are aligned with equipment manufacturers' recommendations and industry best practices.\n4. **Provide Technician Training and Workload Optimization**: Offer training programs for technicians to enhance their skills in vibration analysis, seal maintenance, and other critical areas. Additionally, review technician workloads and optimize task assignments to ensure efficient use of resources and minimize fatigue-related errors.\n\nBy implementing these recommendations, the fleet can reduce downtime, improve overall reliability, and minimize safety risks. Regular monitoring and analysis of equipment performance will help identify areas for further improvement, ensuring a proactive approach to maintenance and reliability."
+}

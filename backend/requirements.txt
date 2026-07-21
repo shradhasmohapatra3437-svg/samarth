@@ -1,0 +1,88 @@
+# ============================================================
+# SAMARTH — Complete Requirements File
+# Generated from active venv (Python 3.12)
+# Install with: pip install -r requirements.txt
+# ============================================================
+
+# --- Core API & Server ---
+fastapi==0.139.0
+uvicorn==0.51.0
+starlette==1.3.1
+python-multipart==0.0.32
+pydantic==2.13.4
+pydantic-settings==2.14.2
+pydantic_core==2.46.4
+
+# --- Environment & Config ---
+python-dotenv==1.2.2
+
+# --- LLM & AI ---
+groq==1.5.0
+google-generativeai==0.8.6
+google-ai-generativelanguage==0.6.15
+google-api-core==2.31.0
+google-api-python-client==2.198.0
+google-auth==2.55.2
+google-auth-httplib2==0.4.0
+googleapis-common-protos==1.75.0
+
+# --- Vector Database (ChromaDB) ---
+chromadb==1.5.9
+onnxruntime==1.27.0
+
+# --- Embeddings & NLP ---
+sentence-transformers==5.6.0
+transformers==5.13.0
+tokenizers==0.22.2
+huggingface_hub==1.23.0
+safetensors==0.8.0
+torch==2.13.0
+
+# --- Knowledge Graph ---
+networkx==3.6.1
+
+# --- Document Parsing ---
+pymupdf==1.28.0
+pytesseract==0.3.13
+Pillow==12.3.0
+pdf2image==1.17.0
+openpyxl==3.1.5
+CairoSVG==2.9.0
+cairocffi==1.7.1
+
+# --- Data & ML ---
+numpy==2.5.1
+pandas==3.0.3
+scikit-learn==1.9.0
+scipy==1.18.0
+joblib==1.5.3
+
+# --- HTTP & Networking ---
+httpx==0.28.1
+httpcore==1.0.9
+requests==2.34.2
+aiohttp==3.14.0
+anyio==4.14.1
+
+# --- Database ---
+SQLAlchemy==2.0.51
+
+# --- Auth & Security ---
+python-jose==3.5.0
+passlib==1.7.4
+bcrypt==5.0.0
+cryptography==49.0.0
+
+# --- Scheduling ---
+APScheduler==3.11.3
+
+# --- Utilities ---
+tqdm==4.68.4
+rich==15.0.0
+click==8.4.2
+typer==0.26.8
+packaging==26.2
+six==1.17.0
+regex==2026.6.28
+python-dateutil==2.9.0.post0
+pytz

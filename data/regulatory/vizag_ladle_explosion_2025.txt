@@ -1,0 +1,48 @@
+INCIDENT REPORT — REAL, VERIFIED
+
+Incident ID: INC-REAL-2025-001
+Date: June 8, 2025
+Facility: Visakhapatnam Steel Plant (Rashtriya Ispat Nigam Limited - RINL)
+Location: Steel Melt Shop-1, Caster-2
+Equipment Involved: Ladle (molten steel transfer vessel), overhead crane
+
+Description:
+At approximately 4:15 PM, Caster-2 of Steel Melt Shop-1 at Visakhapatnam Steel Plant was
+in the process of casting. Before the slide gate could open to pour hot crude steel from
+the ladle into the tundish (and subsequently to the caster), a sudden and severe explosion
+occurred. A severe fireball rose to the ceiling, and Overhead Crane-2 caught fire as a result.
+
+Casualties: 8 workers died from injuries sustained in the explosion. 6 additional workers
+were injured and hospitalized, with 2 in critical condition at the time of initial reporting.
+
+Preliminary Cause Assessment:
+Visakhapatnam Regional Fire Officer D. Niranjan Reddy stated the blast may have been
+triggered by impurities in the molten metal, or may have occurred due to a process-related
+issue. As of the initial Ministry of Steel statement, the exact root cause had not yet been
+determined and was under investigation.
+
+Investigation Status:
+Rashtriya Ispat Nigam Limited (RINL) opened an internal investigation. Additionally, the
+Ministry of Steel assigned a 3-member external enquiry committee, led by the Director-in-
+Charge of Bokaro (SAIL), to investigate the accident independently.
+
+Official Statement:
+Union Minister of State for Heavy Industries and Steel, Bhupathiraju Srinivasa Varma,
+confirmed the incident publicly and stated industrial safety remains a top priority,
+extending support to affected workers and families.
+
+Source: Ministry of Steel, Government of India (public statement); news coverage including
+Zee News, June 2025.
+
+Relevance to Regulatory Framework:
+This incident falls under the general industrial safety oversight of the Factories Act 1948
+(worker safety in hazardous processes) and is illustrative of the kind of high-consequence,
+process-related failure that OISD standards on equipment inspection and safe operating
+procedures are designed to prevent. No specific OISD standard number is confirmed as
+directly cited in public reporting for this incident.
+
+Data Provenance Note:
+This is a real, publicly documented industrial incident, included to supplement the
+synthetic operational dataset used elsewhere in this project. Unlike the generated work
+orders, inspection reports, and shift logs, this record reflects an actual verified event
+and is not fabricated for demonstration purposes.

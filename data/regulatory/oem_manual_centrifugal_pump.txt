@@ -1,0 +1,62 @@
+OEM REFERENCE GUIDE — CENTRIFUGAL PUMPS
+Equipment Class: Centrifugal Pump (applicable to P-101, P-204, P-156, P-089, and similar plant pump assets)
+Compiled from general industry maintenance practice for centrifugal pump equipment.
+
+SECTION 1 — SAFETY PRECAUTIONS BEFORE INSPECTION
+Before any inspection or maintenance work, power to the pump must be disconnected and locked out per
+standard lock-out/tag-out procedure. Suction and discharge valves should be closed, the pump drained, and
+any hazardous residue neutralized before opening the casing.
+
+SECTION 2 — ROUTINE INSPECTION SCHEDULE
+- Daily: Visual walkaround for leakage at pipe joints and mounting brackets; listen for abnormal noise
+  suggestive of cavitation (a rattling or "marbles in the pump" sound) or high-pitched bearing squeal.
+- Weekly: Log discharge pressure and flow rate. A drop of roughly 10% or more from baseline typically
+  indicates internal wear, impeller damage, or suction-side clogging.
+- Monthly: Inspect and clean motor cooling fins; debris accumulation is a common cause of heat-related
+  bearing failure.
+- Quarterly: Check foundation and mounting bolts, and piping supports, for vibration-induced loosening.
+
+SECTION 3 — MECHANICAL SEAL CONDITION AND FAILURE PROGRESSION
+Mechanical seals should be checked via the housing's inspection point:
+- Dry condition: seal is functioning normally.
+- Intermittent dripping: early indication of seal face wear; maintenance should be scheduled soon,
+  not treated as an emergency yet.
+- Continuous/steady leakage: seal has effectively failed; replacement is required immediately, before
+  fluid reaches and damages the motor bearings.
+
+Common root causes of premature seal failure include:
+- Running the pump dry, even briefly, which is one of the most damaging conditions for mechanical seals.
+- Operating fluid temperature or chemical composition outside the seal material's rated tolerance.
+- Abrasive solids settling near the seal during idle/shutdown periods ("abrasive lag"), often prevented
+  by flushing the pump before extended downtime.
+
+SECTION 4 — IMPELLER AND CASING INSPECTION
+During any teardown or seal replacement, the impeller and casing (volute) should also be inspected for:
+- Erosion or pitting on impeller vanes (a honeycomb-like surface pattern), typically caused by cavitation
+  or abrasive fluid content.
+- Excessive clearance between impeller and casing due to wear, which reduces pump efficiency and
+  discharge head.
+- Debris lodged in impeller passages, which can cause vibration and hydraulic imbalance.
+
+SECTION 5 — COMMON FAILURE MODES AND LIKELY CAUSES (troubleshooting reference)
+- Excessive heat: commonly caused by dead-heading (running against a closed discharge valve) or
+  bearing friction from inadequate lubrication.
+- Rapid/repeated seal wear: often linked to abrasive lag during shutdowns, or seal material incompatible
+  with process fluid chemistry.
+- Cavitation noise/vibration: usually indicates insufficient Net Positive Suction Head (NPSH) available,
+  a clogged suction strainer, or a suction-side restriction.
+
+SECTION 6 — EXTENDED SHUTDOWN / STORAGE GUIDANCE
+If a pump will be out of service for more than approximately 30 days:
+1. Drain and flush all process fluid from the casing.
+2. Apply a light protective oil coating to internal cast iron components to prevent rust-binding.
+3. Manually rotate the shaft by hand periodically (roughly monthly) to prevent seal faces from bonding
+   and to redistribute bearing lubrication.
+
+DATA PROVENANCE NOTE
+This document is a synthesized reference compiled from general, publicly available centrifugal pump
+maintenance guidance (multiple manufacturer service manuals and industry maintenance references).
+It represents general engineering practice for this equipment class, not a manufacturer-specific
+document for any single named OEM. It is intended to give the Maintenance Intelligence & RCA Agent
+a real technical grounding for failure-mode reasoning about pump equipment (e.g., P-204's recurring
+seal failure pattern), rather than relying solely on synthetic work-order text.

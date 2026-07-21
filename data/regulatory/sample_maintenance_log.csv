@@ -1,0 +1,8 @@
+Equipment_ID,Date,Failure_Type,Technician,Downtime_Hours,OISD_Reference,Status
+P-301,2025-01-10,Bearing overheating,Anil Kumar,5,OISD-STD-105,completed
+C-12,2025-01-18,Belt slippage,Meena Rao,3,OISD-STD-116,completed
+P-301,2025-02-22,Bearing overheating,Anil Kumar,4,OISD-STD-105,completed
+HX-05,2025-03-05,Tube fouling,Vikram Das,8,OISD-STD-137,completed
+P-301,2025-04-01,Bearing overheating,Anil Kumar,6,OISD-STD-105,completed
+C-12,2025-04-15,Belt slippage,Meena Rao,2,OISD-STD-116,completed
+V-08,2025-05-09,Valve seat leakage,Anil Kumar,7,OISD-STD-141,completed
