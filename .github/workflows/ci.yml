@@ -1,0 +1,79 @@
+name: CI — Lint & Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # ── Job 1: Python Backend Lint ─────────────────────────────────────────
+  backend-lint:
+    name: 🐍 Backend Lint (flake8)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install flake8
+        run: pip install flake8
+
+      - name: Run flake8 (errors only)
+        run: |
+          flake8 backend/ \
+            --exclude=backend/venv,backend/__pycache__ \
+            --select=E9,F63,F7,F82 \
+            --count \
+            --show-source \
+            --statistics
+
+  # ── Job 2: Frontend Build Check ───────────────────────────────────────
+  frontend-build:
+    name: ⚛️ Frontend Build (Vite)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install dependencies
+        run: |
+          cd frontend
+          npm install
+
+      - name: Build React app
+        run: |
+          cd frontend
+          npm run build
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-dist
+          path: frontend/dist/
+          retention-days: 7
+
+  # ── Job 3: Docker Compose Validation ──────────────────────────────────
+  docker-validate:
+    name: 🐳 Docker Compose Config Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Validate docker-compose.yml
+        run: docker compose config --quiet

@@ -1,7 +1,23 @@
+## Python
 venv/
-.env
 __pycache__/
 *.pyc
+*.pyo
 *.db
+
+## Environment secrets (NEVER commit these)
+.env
+
+## Data folders
 data/raw/
 data/generated/
+
+## Frontend build
+frontend/node_modules/
+frontend/dist/
+
+## ChromaDB vector store (too large for git)
+backend/chroma_db/
+
+## Docker volumes
+*.tar

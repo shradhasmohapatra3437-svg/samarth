@@ -1,0 +1,43 @@
+version: '3.9'
+
+services:
+
+  # ── FastAPI Backend ──────────────────────────────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: samarth-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./data:/app/data                  # regulatory PDFs & OEM manuals
+      - chroma_data:/app/chroma_db        # persistent ChromaDB vector store
+      - sqlite_data:/app/samarth.db       # persistent SQLite DB
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ── React Frontend (nginx) ───────────────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE: http://localhost:8000
+    container_name: samarth-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+# ── Named Volumes ─────────────────────────────────────────────────────────
+volumes:
+  chroma_data:
+  sqlite_data:
